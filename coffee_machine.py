@@ -54,7 +54,7 @@ def is_transection_successful(money_recieved , drink_cost):
         profit += drink_cost
         return True
     else:
-        print("Sorry that's not enough money. Money refunded.")
+        print("Sorry that's not enough money! Money refunded.")
     return False    
 
 def make_coffee(drink_name , order_ingredients):
